@@ -6,7 +6,7 @@ Threat Modelling Tool
 
 ## Description
 
-Leviathan leverages AI and NMAP to conduct a first level parse of your environment. The threat model in use is based on OWASP STRIDE. The utility scans a given host or network range and translates the findings into a highlevel overview of potential threats that may require further examination or scrutiny.
+Leviathan leverages OpenAI and NMAP to conduct a first level parse of your environment. A basic threat model is formulated using the OWASP STRIDE framework. The Leviathan utility scans a given host or network range and translates the findings into a highlevel overview of potential threats that call for further examination or scrutiny. Applying a quantifiable lens, the next step would be a penetration test to help solidify the results and to provide mitigations where necessary.
 
 ## Usage
 ```
@@ -18,6 +18,7 @@ python3 leviathan.py <host IP Address or Network Range>
 - Python3.11
 - OPENAI module and a valid API key. More info can be found [here](https://platform.openai.com/docs/api-reference/introduction)
 - python3-nmap
+- NPM
 
 ## Installation
 
@@ -25,6 +26,13 @@ python3 leviathan.py <host IP Address or Network Range>
 
 ```
 pip3 install -r requirements.txt
+```
+
+- NPM Installation
+  
+```
+npm init -y
+npm install express
 ```
 
 ## Screenshots
