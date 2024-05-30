@@ -20,6 +20,7 @@ python3 leviathan.py <host IP Address or Network Range>
 - Python3.11
 - OPENAI module and a valid API key. More info can be found [here](https://platform.openai.com/docs/api-reference/introduction)
 - python3-nmap
+- NODEJS
 - NPM
 
 ## Installation
