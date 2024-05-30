@@ -35,6 +35,12 @@ npm init -y
 npm install express
 ```
 
+- Clone the GIT hub repository
+
+```
+git clone
+```
+
 ## Screenshots
 
 <img width="1509" alt="image" src="https://github.com/exploitsecurityio/leviathan/assets/131332424/15d3528f-353d-45bc-bbf9-7ce3a7a308d2">
