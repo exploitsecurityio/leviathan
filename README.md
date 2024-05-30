@@ -30,6 +30,12 @@ python3 leviathan.py <host IP Address or Network Range>
 git clone git@github.com:exploitsecurityio/leviathan.git
 ```
 
+- Run Python VENV
+```
+python -m venv venv
+source venv/bin/activate
+```
+
 - Using pip to install required libraries
 
 ```
