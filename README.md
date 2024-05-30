@@ -54,6 +54,12 @@ npm init -y
 npm install express
 ```
 
+- Install CORS Module
+
+```
+npm install cors --save
+```
+
 - Server will run on http://localhost:3000
 
 ## Screenshots
