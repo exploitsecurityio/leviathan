@@ -43,6 +43,16 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
+- Install openai
+```
+pip install openai
+```
+
+- Install python3-nmap
+```
+pip install python3-nmap
+```
+
 - NODEJS Installation
 ```
 apt-get install nodejs
