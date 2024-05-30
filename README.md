@@ -22,6 +22,12 @@ python3 leviathan.py <host IP Address or Network Range>
 
 ## Installation
 
+- Clone the GIT hub repository
+
+```
+git clone git@github.com:exploitsecurityio/leviathan.git
+```
+
 - Using pip to install required libraries
 
 ```
@@ -33,12 +39,6 @@ pip3 install -r requirements.txt
 ```
 npm init -y
 npm install express
-```
-
-- Clone the GIT hub repository
-
-```
-git clone
 ```
 
 ## Screenshots
