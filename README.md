@@ -36,6 +36,11 @@ git clone git@github.com:exploitsecurityio/leviathan.git
 pip3 install -r requirements.txt
 ```
 
+- NODEJS Installation
+```
+apt-get install nodejs
+```
+
 - NPM Installation
   
 ```
