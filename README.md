@@ -6,7 +6,9 @@ Threat Modelling Tool
 
 ## Description
 
-Leviathan leverages OpenAI and NMAP to conduct a first level parse of your environment. A basic threat model is formulated using the OWASP STRIDE framework. The Leviathan utility scans a given host or network range and translates the findings into a highlevel overview of potential threats that call for further examination or scrutiny. Applying a quantifiable lens, the next step would be a penetration test to help solidify the results and to provide mitigations where necessary.
+Leviathan leverages OpenAI and NMAP to conduct a first level parse of your environment. A basic threat model is formulated using the OWASP STRIDE framework. The Leviathan utility scans a given host or network range and translates the findings into a highlevel overview of potential threats that call for further examination or scrutiny. The WebUI is then presented to the user, which allows for a highlevel overview of potential threats within the environment.
+
+NEXT STEP: Applying a quantifiable lens, the next step would be a penetration test to help solidify the results and to provide mitigations where necessary.
 
 ## Usage
 ```
