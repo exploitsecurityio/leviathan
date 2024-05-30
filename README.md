@@ -37,7 +37,7 @@ npm install express
 
 ## Screenshots
 
-
+<img width="1509" alt="image" src="https://github.com/exploitsecurityio/leviathan/assets/131332424/15d3528f-353d-45bc-bbf9-7ce3a7a308d2">
 
 ## Contact
 
@@ -47,7 +47,7 @@ Email: info@exploitsecurity.io
 
 ## Copyright
 
-ExploitToolFinder developed by The Security Team @ [exploitsecurity.io]
+Leviathan was developed by The Security Team @ [exploitsecurity.io]
 
 This program is freely redistributable under the terms of the GNU General Public License as published by the Free Software Foundation.
 
