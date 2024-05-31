@@ -53,14 +53,39 @@ def produce_html():
                 th {
                     background-color: #f2f2f2;
                 }
+                .center {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 15%;
+                    height: 15%
+                }
+                .center1 {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 5%;
+                    height: 5%
+                }
+                .topic { 
+                    padding: 5px;
+                    text-align: center;
+                    text-decoration: none;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
             </style>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
         </head>
         <body>
+        <button id="exportButton">Export to PDF</button>
+        <script src="export.js"></script>
         <div id="content">
-            <h1>Leviathan</h1>
-            <img src="leviathan-icon.png" style="width:10%;height:10%;"> 
-            <h2>[by exploitsecurity.io]</h2>
+            <img src="leviathan.png" class="center">
+            <br>
+            <img src="leviathan-icon.png" class="center"> 
+            <br>
             <table>
                 <thead>
                     <tr>
@@ -72,7 +97,6 @@ def produce_html():
                     </tr>
                 </thead>
                 <tbody id="threat-table-body">
-                    <!-- Data will be inserted here by JavaScript -->
                 </tbody>
             </table>
 
@@ -95,11 +119,14 @@ def produce_html():
                     })
                     .catch(error => console.error('Error fetching data:', error));
             </script>
-            </div>
             <br>
-            <button id="exportButton">Export to PDF</button>
-            <script src="export.js"></script>
+            <img src="Color logo - no background.png" class="center1">
+            <p class="topic">
+            <a href="https://www.exploitsecurity.io">www.exploitsecurity.io</a>
+            </p>
+            </div>
         </body>
+
         </html>
         """
     
