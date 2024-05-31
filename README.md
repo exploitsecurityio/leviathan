@@ -40,7 +40,7 @@ source venv/bin/activate
 - Using pip to install required libraries
 
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 - Install openai
