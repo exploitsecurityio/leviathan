@@ -54,8 +54,10 @@ def produce_html():
                     background-color: #f2f2f2;
                 }
             </style>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
         </head>
         <body>
+        <div id="content">
             <h1>Leviathan</h1>
             <img src="leviathan-icon.png" style="width:10%;height:10%;"> 
             <h2>by Exploit Security</h2>
@@ -93,6 +95,10 @@ def produce_html():
                     })
                     .catch(error => console.error('Error fetching data:', error));
             </script>
+            </div>
+            <br>
+            <button id="exportButton">Export to PDF</button>
+            <script src="export.js"></script>
         </body>
         </html>
         """
