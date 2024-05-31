@@ -3,7 +3,6 @@ import json
 from openai import OpenAI
 import sys
 import os
-import subprocess
 
 def scan():
     host = str(sys.argv[1])
