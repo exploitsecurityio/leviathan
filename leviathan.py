@@ -60,7 +60,7 @@ def produce_html():
         <div id="content">
             <h1>Leviathan</h1>
             <img src="leviathan-icon.png" style="width:10%;height:10%;"> 
-            <h2>by Exploit Security</h2>
+            <h2>[exploitsecurity.io]</h2>
             <table>
                 <thead>
                     <tr>
