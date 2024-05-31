@@ -71,6 +71,12 @@ npm install express
 npm install cors --save
 ```
 
+- Install html2pdf Module
+
+```
+npm install --save html2pdf.js
+```
+
 - Server will run on http://localhost:3000
 
 ## Screenshots
