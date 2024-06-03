@@ -12,7 +12,7 @@ NEXT STEP: Applying a quantifiable lens, the next step would be a penetration te
 
 ## Usage
 ```
-python3 leviathan.py <host IP Address or Network Range>
+python3 leviathan.py <host IP Address or Network Range> <valid openai api_key>
 ```
 
 ## Dependencies
