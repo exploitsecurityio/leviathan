@@ -23,12 +23,18 @@ python3 leviathan.py <host IP Address or Network Range>
 - NODEJS
 - NPM
 
-## Installation
+## Manual Installation
 
 - Clone the GIT hub repository
 
 ```
 git clone https://github.com/exploitsecurityio/leviathan.git
+```
+
+- Clone the python-nmap3 repo
+
+```
+git clone https://github.com/nmmapper/python3-nmap.git
 ```
 
 - Run Python VENV
