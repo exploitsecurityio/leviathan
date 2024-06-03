@@ -31,12 +31,6 @@ python3 leviathan.py <host IP Address or Network Range>
 git clone https://github.com/exploitsecurityio/leviathan.git
 ```
 
-- Clone the python-nmap3 repo
-
-```
-git clone https://github.com/nmmapper/python3-nmap.git
-```
-
 - Install Python VENV
 
 ```
