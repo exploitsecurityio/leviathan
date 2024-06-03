@@ -71,6 +71,12 @@ apt-get install nodejs
 ```
 
 - NPM Installation
+
+```
+apt-get install npm
+```
+
+- NPM Installation
   
 ```
 npm init -y
