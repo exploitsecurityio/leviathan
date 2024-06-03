@@ -37,6 +37,12 @@ git clone https://github.com/exploitsecurityio/leviathan.git
 git clone https://github.com/nmmapper/python3-nmap.git
 ```
 
+- Install Python VENV
+
+```
+apt install python3.12-venv
+```
+
 - Run Python VENV
 ```
 python -m venv venv
