@@ -139,7 +139,7 @@ def produce_html():
 
 def start_npm():
     ip = os.system("hostname  -I | cut -f1 -d' '")
-    print ("[*] Server is running on http://"+ip+":3000")
+    print ("[*] Server is running on http://"+str(ip)+":3000")
     os.system("node server.js > /dev/null")
 
 def banner():
