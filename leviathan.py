@@ -138,7 +138,8 @@ def produce_html():
         html_file.write(html_content)
 
 def start_npm():
-    print ("[*] Server is running on http://"+str(os.system("hostname  -I | cut -f1 -d' '"))+":3000")
+    ip_address = str(os.system("echo $ip"))
+    print ("[*] Server is running on http://"+ip_address+":3000")
     os.system("node server.js > /dev/null")
 
 def banner():
