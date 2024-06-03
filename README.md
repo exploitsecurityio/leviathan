@@ -28,7 +28,7 @@ python3 leviathan.py <host IP Address or Network Range>
 - Clone the GIT hub repository
 
 ```
-git clone git@github.com:exploitsecurityio/leviathan.git
+git clone https://github.com/exploitsecurityio/leviathan.git
 ```
 
 - Run Python VENV
