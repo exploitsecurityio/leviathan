@@ -13,22 +13,26 @@ def scan():
 
 def produce_json(results):
     print("[*] Formulating results")
-    OPENAI_API_KEY = "<API_KEY>"
+    OPENAI_API_KEY = str(sys.argv[2])
     client = OpenAI(api_key=OPENAI_API_KEY)
-    response = client.chat.completions.create(
-        messages=[
-            {
-                "role": "user",
-                "content": "using data from "+str(results)+", formulate a standard stride threat model. Output the results in json format using ONLY use these specific parameter fields 'ipAddress', 'port', 'threatCategory', 'violates' and 'example' and add a comma between open and closed curly brackets",
-                "response_format":"json_object"
-            }
-        ],
-        model="gpt-3.5-turbo",
-    )
-    response_json = (response.choices[0].message.content)
-    json_file_path = 'leviathan_threat_model.json'
-    with open(json_file_path, 'w') as json_file:
-        json_file.write("["+response_json+"]")
+    try:
+        response = client.chat.completions.create(
+            messages=[
+                {
+                    "role": "user",
+                    "content": "using data from "+str(results)+", formulate a standard stride threat model. Output the results in json format using ONLY use these specific parameter fields 'ipAddress', 'port', 'threatCategory', 'violates' and 'example' and add a comma between open and closed curly brackets",
+                    "response_format":"json_object"
+                }
+            ],
+            model="gpt-3.5-turbo",
+        )
+        response_json = (response.choices[0].message.content)
+        json_file_path = 'leviathan_threat_model.json'
+        with open(json_file_path, 'w') as json_file:
+            json_file.write("["+response_json+"]")
+    except:
+        print ("[*] PLEASE ENTER A VALID OPENAI API KEY !")
+        sys.exit()
 
 def produce_html():
     print ("[*] Creating content")
@@ -160,9 +164,8 @@ def main():
     start_npm()
 
 if (__name__ == '__main__'):
-    if len(sys.argv) == 2:
+    if len(sys.argv) == 3:
         banner()
         main()
     else:
-        print ("Usage: %s <IP or IP Range> " %sys.argv[0])
-
+        print ("Usage: %s <IP or IP Range> <valid openai api_key>" %sys.argv[0])
