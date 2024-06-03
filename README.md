@@ -10,11 +10,6 @@ Leviathan leverages OpenAI and NMAP to conduct a first level parse of your envir
 
 NEXT STEP: Applying a quantifiable lens, the next step would be a penetration test to help solidify the results and to provide mitigations where necessary.
 
-## Usage
-```
-python3 leviathan.py <host IP Address or Network Range> <valid openai api_key>
-```
-
 ## Dependencies
 
 - Valid API key. More info can be found [here](https://platform.openai.com/docs/api-reference/introduction)
@@ -30,6 +25,11 @@ docker pull exsec/leviathan:leviathan
 
 ```
 sudo docker run -it -p 3000:3000 exsec/leviathan:leviathan
+```
+
+## Usage
+```
+python3 leviathan.py <host IP Address or Network Range> <valid openai api_key>
 ```
 
 - Server will run on http://localhost:3000
