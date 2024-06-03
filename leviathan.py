@@ -138,7 +138,7 @@ def produce_html():
         html_file.write(html_content)
 
 def start_npm():
-    ip = os.system(`hostname  -I | cut -f1 -d' '`)
+    ip = os.system("hostname  -I | cut -f1 -d' '")
     print ("[*] Server is running on http://"+ip+":3000")
     os.system("node server.js > /dev/null")
 
