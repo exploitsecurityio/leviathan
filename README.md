@@ -23,70 +23,16 @@ python3 leviathan.py <host IP Address or Network Range> <valid openai api_key>
 - NODEJS
 - NPM
 
-## Manual Installation
-
-- Clone the GIT hub repository
+## Docker Installation
 
 ```
-git clone https://github.com/exploitsecurityio/leviathan.git
+docker pull exsec/leviathan:leviathan
 ```
 
-- Install Python VENV
+# Running the utility
 
 ```
-apt install python3.12-venv
-```
-
-- Run Python VENV
-```
-python -m venv venv
-source venv/bin/activate
-```
-
-- Using pip to install required libraries
-
-```
-pip install -r requirements.txt
-```
-
-- Install openai
-```
-pip install openai
-```
-
-- Install python3-nmap
-```
-pip install python3-nmap
-```
-
-- NODEJS Installation
-```
-apt-get install nodejs
-```
-
-- NPM Installation
-
-```
-apt-get install npm
-```
-
-- NPM Installation
-  
-```
-npm init -y
-npm install express
-```
-
-- Install CORS Module
-
-```
-npm install cors --save
-```
-
-- Install html2pdf Module
-
-```
-npm install --save html2pdf.js
+sudo docker run -it -p 3000:3000 exsec/leviathan:leviathan
 ```
 
 - Server will run on http://localhost:3000
