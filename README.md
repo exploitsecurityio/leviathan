@@ -17,11 +17,8 @@ python3 leviathan.py <host IP Address or Network Range> <valid openai api_key>
 
 ## Dependencies
 
-- Python3.11
-- OPENAI module and a valid API key. More info can be found [here](https://platform.openai.com/docs/api-reference/introduction)
-- python3-nmap
-- NODEJS
-- NPM
+- Valid API key. More info can be found [here](https://platform.openai.com/docs/api-reference/introduction)
+- Docker.io
 
 ## Docker Installation
 
