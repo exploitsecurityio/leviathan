@@ -12,7 +12,7 @@ NEXT STEP: Applying a quantifiable lens, the next step would be a penetration te
 
 ## Dependencies
 
-- Valid API key. More info can be found [here](https://platform.openai.com/docs/api-reference/introduction)
+- Valid OPENAI API key. More info can be found [here](https://platform.openai.com/docs/api-reference/introduction)
 - Docker.io
 
 ## Docker Installation
